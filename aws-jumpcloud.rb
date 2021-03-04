@@ -5,14 +5,14 @@ class AwsJumpcloud < Formula
   homepage "https://github.com/CirrusMD/aws-jumpcloud"
   url "https://github.com/CirrusMD/aws-jumpcloud/releases/download/v2.1.8/aws_jumpcloud-2.1.8.tar.gz"
   version "v2.1.8"
-  sha256 "8ecca58e90d1e3da9e8bdd1182c8e3930fd6417f7cf3b72b925b95567432bebd"
+  sha256 "3be6613fc8cd1021af264b4e69518ca4337d4c4d384d605c408f5b6cae2253f3"
   head "https://github.com/CirrusMD/aws-jumpcloud.git", :branch => 'main'
-  depends_on "python"
+  depends_on "python3.8"
 
   def install
     venv = virtualenv_create(libexec, "python3")
-    system libexec/"bin/pip", "install", "-v", "--ignore-installed", buildpath
-    system libexec/"bin/pip", "uninstall", "-y", "aws-jumpcloud"
+    system libexec/"bin/pip3", "install", "-v", "--ignore-installed", buildpath
+    system libexec/"bin/pip3", "uninstall", "-y", "aws-jumpcloud"
     venv.pip_install_and_link buildpath
   end
 
