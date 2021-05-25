@@ -5,7 +5,7 @@ class AwsJumpcloud < Formula
   homepage "https://github.com/CirrusMD/aws-jumpcloud"
   url "https://github.com/CirrusMD/aws-jumpcloud/releases/download/v2.1.10/aws_jumpcloud-2.1.10.tar.gz"
   version "v2.1.10"
-  sha256 "218fc83674c84079d2aad007be238a43c73fd9ed3028070e64ec8c232de0bda3"
+  sha256 "9f4389aef0c3d1013f43b3f7e955901ff499c5c6a82c075c1f4210a56f0c0306"
   head "https://github.com/CirrusMD/aws-jumpcloud.git", :branch => 'main'
   depends_on "python@3.8"
 
