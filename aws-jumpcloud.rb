@@ -3,9 +3,9 @@ class AwsJumpcloud < Formula
 
   desc "aws-vault like tool for JumpCloud authentication"
   homepage "https://github.com/CirrusMD/aws-jumpcloud"
-  url "https://github.com/CirrusMD/aws-jumpcloud/releases/download/v2.1.12/aws_jumpcloud-2.1.11.tar.gz"
-  version "v2.1.12"
-  sha256 "26947ab680dcdea00db96dc7cca7844de911ea06f3e569ca4e4b7b9573475549"
+  url "https://github.com/CirrusMD/aws-jumpcloud/releases/download/v2.1.13/aws_jumpcloud-2.1.13.tar.gz"
+  version "v2.1.13"
+  sha256 "b45d593bf17e0b710c8062bf8920b92e4b98493d7bbad8a1e2b47ef0f9f182ae"
   head "https://github.com/CirrusMD/aws-jumpcloud.git", :branch => 'main'
   depends_on "python@3.8"
 
